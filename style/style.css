@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+body{
+    background: black;
+}
+
+#clock{
+    position: absolute;
+    color: orangered;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 80px;
+    font-family: 'Share Tech Mono', monospace;
+    border: 10px solid orangered;
+    padding: 0px 25px;
+}
